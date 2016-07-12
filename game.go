@@ -254,7 +254,7 @@ func showSettingsScreen(screenSurf *Surface) (p1name, p2name string, points int,
 
 func showIntroScreen(screenSurf *Surface, p1name, p2name string) {
 	screenSurf.fill(SKY_COLOR)
-	drawText("P  y  t  h  o  n     G  O  R  I  L  L  A  S", screenSurf, SCR_WIDTH/2, 15, WHITE_COLOR, SKY_COLOR, "center")
+	drawText("G  O  R  I  L  L  A  S", screenSurf, SCR_WIDTH/2, 15, WHITE_COLOR, SKY_COLOR, "center")
 	drawText("STARRING:", screenSurf, SCR_WIDTH/2, 55, WHITE_COLOR, SKY_COLOR, "center")
 	drawText(fmt.Sprintf("%s AND %s", p1name, p2name), screenSurf, SCR_WIDTH/2, 115, WHITE_COLOR, SKY_COLOR, "center")
 
